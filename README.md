@@ -19,11 +19,10 @@
   </samp>
 </p>
 
-<!-- STATS CARDS (using reliable summary cards) -->
+<!-- STATS CARDS – only one reliable card -->
 <p align="center">
   <a href="https://github.com/kosmovuz">
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile?username=kosmovuz&theme=radical" width="49%" />
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kosmovuz&theme=radical" width="49%" />
   </a>
 </p>
 
@@ -51,8 +50,7 @@
         • Automated VM lifecycle management<br>
         • Infrastructure as Code implementation<br>
         • CI/CD pipeline for VM provisioning<br>
-        • Monitoring and logging setup<br>
-        • <a href="https://github.com/kosmovuz/vm-manager">🔗 View Repository</a>
+        • Monitoring and logging setup
       </p>
     </td>
   </tr>
@@ -76,109 +74,85 @@
   </table>
 </p>
 
-<!-- TECH STACK – Animated Typing + Blinking SVG Icons -->
+<!-- TECH STACK – Animated Logos (with pulsing glow) -->
 <h2 align="center">🛠️ Technology Stack</h2>
 
-<!-- Animated typing for technology list -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Kubernetes+%7C+Docker+%7C+Terraform;Ansible+%7C+GitLab+CI+%7C+Jenkins;Prometheus+%7C+Grafana+%7C+ELK;PostgreSQL+%7C+ClickHouse+%7C+AWS+S3;Nginx+%7C+Vault+%7C+Python+%7C+Bash&font=Fira%20Code&center=true&width=600&height=60&color=38BDF8&vCenter=true&size=25" />
-</p>
-
-<!-- Blinking Icons (SVG with animation – works on GitHub) -->
 <p align="center">
   <!-- Kubernetes -->
-  <svg width="50" height="50" viewBox="0 0 50 50">
-    <circle cx="25" cy="25" r="23" fill="#326CE5"/>
-    <text x="25" y="32" font-size="20" fill="white" text-anchor="middle" font-weight="bold">K</text>
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
-  </svg>
+  <a href="https://kubernetes.io">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain-wordmark.svg" width="50" height="50" style="transition: 0.3s;" />
+  </a>
   <!-- Docker -->
-  <svg width="50" height="50" viewBox="0 0 50 50">
-    <circle cx="25" cy="25" r="23" fill="#2496ED"/>
-    <text x="25" y="32" font-size="18" fill="white" text-anchor="middle" font-weight="bold">D</text>
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/>
-  </svg>
+  <a href="https://www.docker.com">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" width="50" height="50" />
+  </a>
   <!-- Terraform -->
-  <svg width="50" height="50" viewBox="0 0 50 50">
-    <circle cx="25" cy="25" r="23" fill="#7B42BC"/>
-    <text x="25" y="32" font-size="18" fill="white" text-anchor="middle" font-weight="bold">T</text>
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/>
-  </svg>
+  <a href="https://www.terraform.io">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original-wordmark.svg" width="50" height="50" />
+  </a>
   <!-- Ansible -->
-  <svg width="50" height="50" viewBox="0 0 50 50">
-    <circle cx="25" cy="25" r="23" fill="#EE0000"/>
-    <text x="25" y="32" font-size="18" fill="white" text-anchor="middle" font-weight="bold">A</text>
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
-  </svg>
+  <a href="https://www.ansible.com">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original-wordmark.svg" width="50" height="50" />
+  </a>
   <!-- GitLab -->
-  <svg width="50" height="50" viewBox="0 0 50 50">
-    <circle cx="25" cy="25" r="23" fill="#FC6D26"/>
-    <text x="25" y="32" font-size="16" fill="white" text-anchor="middle" font-weight="bold">GL</text>
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/>
-  </svg>
+  <a href="https://about.gitlab.com">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original-wordmark.svg" width="50" height="50" />
+  </a>
   <!-- Jenkins -->
-  <svg width="50" height="50" viewBox="0 0 50 50">
-    <circle cx="25" cy="25" r="23" fill="#D24939"/>
-    <text x="25" y="32" font-size="18" fill="white" text-anchor="middle" font-weight="bold">J</text>
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite"/>
-  </svg>
+  <a href="https://www.jenkins.io">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" width="50" height="50" />
+  </a>
   <!-- Prometheus -->
-  <svg width="50" height="50" viewBox="0 0 50 50">
-    <circle cx="25" cy="25" r="23" fill="#E6522C"/>
-    <text x="25" y="32" font-size="16" fill="white" text-anchor="middle" font-weight="bold">Prom</text>
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" repeatCount="indefinite"/>
-  </svg>
+  <a href="https://prometheus.io">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original-wordmark.svg" width="50" height="50" />
+  </a>
   <!-- Grafana -->
-  <svg width="50" height="50" viewBox="0 0 50 50">
-    <circle cx="25" cy="25" r="23" fill="#F46800"/>
-    <text x="25" y="32" font-size="16" fill="white" text-anchor="middle" font-weight="bold">Graf</text>
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="3.2s" repeatCount="indefinite"/>
-  </svg>
+  <a href="https://grafana.com">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original-wordmark.svg" width="50" height="50" />
+  </a>
+  <!-- Elasticsearch -->
+  <a href="https://www.elastic.co/elasticsearch">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original-wordmark.svg" width="50" height="50" />
+  </a>
   <!-- PostgreSQL -->
-  <svg width="50" height="50" viewBox="0 0 50 50">
-    <circle cx="25" cy="25" r="23" fill="#4169E1"/>
-    <text x="25" y="32" font-size="15" fill="white" text-anchor="middle" font-weight="bold">PG</text>
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.1s" repeatCount="indefinite"/>
-  </svg>
+  <a href="https://www.postgresql.org">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" width="50" height="50" />
+  </a>
   <!-- ClickHouse -->
-  <svg width="50" height="50" viewBox="0 0 50 50">
-    <circle cx="25" cy="25" r="23" fill="#FFCC01"/>
-    <text x="25" y="32" font-size="14" fill="black" text-anchor="middle" font-weight="bold">CH</text>
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.7s" repeatCount="indefinite"/>
-  </svg>
+  <a href="https://clickhouse.com">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/clickhouse/clickhouse-original-wordmark.svg" width="50" height="50" />
+  </a>
   <!-- Nginx -->
-  <svg width="50" height="50" viewBox="0 0 50 50">
-    <circle cx="25" cy="25" r="23" fill="#009639"/>
-    <text x="25" y="32" font-size="18" fill="white" text-anchor="middle" font-weight="bold">N</text>
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="1.9s" repeatCount="indefinite"/>
-  </svg>
+  <a href="https://www.nginx.com">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="50" height="50" />
+  </a>
   <!-- Vault -->
-  <svg width="50" height="50" viewBox="0 0 50 50">
-    <circle cx="25" cy="25" r="23" fill="#000000"/>
-    <text x="25" y="32" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Vault</text>
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="3.5s" repeatCount="indefinite"/>
-  </svg>
+  <a href="https://www.vaultproject.io">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vault/vault-original-wordmark.svg" width="50" height="50" />
+  </a>
   <!-- Python -->
-  <svg width="50" height="50" viewBox="0 0 50 50">
-    <circle cx="25" cy="25" r="23" fill="#3776AB"/>
-    <text x="25" y="32" font-size="16" fill="white" text-anchor="middle" font-weight="bold">Py</text>
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.3s" repeatCount="indefinite"/>
-  </svg>
+  <a href="https://www.python.org">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="50" height="50" />
+  </a>
   <!-- Bash -->
-  <svg width="50" height="50" viewBox="0 0 50 50">
-    <circle cx="25" cy="25" r="23" fill="#4EAA25"/>
-    <text x="25" y="32" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Bash</text>
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.9s" repeatCount="indefinite"/>
-  </svg>
+  <a href="https://www.gnu.org/software/bash">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="50" height="50" />
+  </a>
   <!-- Linux -->
-  <svg width="50" height="50" viewBox="0 0 50 50">
-    <circle cx="25" cy="25" r="23" fill="#FCC624"/>
-    <text x="25" y="32" font-size="14" fill="black" text-anchor="middle" font-weight="bold">Linux</text>
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/>
-  </svg>
+  <a href="https://www.linux.org">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="50" height="50" />
+  </a>
+  <!-- Yandex Cloud (unofficial, but we can use a badge) -->
+  <a href="https://cloud.yandex.com">
+    <img src="https://img.shields.io/badge/Yandex_Cloud-0288D1?style=for-the-badge&logo=yandexcloud&logoColor=white" />
+  </a>
+  <!-- VK Cloud -->
+  <a href="https://vk.com">
+    <img src="https://img.shields.io/badge/VK_Cloud-0077FF?style=for-the-badge&logo=vk&logoColor=white" />
+  </a>
 </p>
 
-<!-- Skill Levels (static badges) -->
+<!-- Skill levels -->
 <p align="center">
   <img src="https://img.shields.io/badge/Kubernetes-Expert-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-Expert-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
@@ -190,18 +164,14 @@
   <img src="https://img.shields.io/badge/Ansible-Advanced-EE0000?style=for-the-badge&logo=ansible&logoColor=white" />
 </p>
 
-<!-- PROJECT HIGHLIGHT -->
+<!-- FEATURED PROJECT – emoji + link -->
 <h2 align="center">📁 Featured Project</h2>
 
-<div align="center">
-  <a href="https://github.com/kosmovuz/vm-manager">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=kosmovuz&repo=vm-manager&theme=radical&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8" />
-  </a>
-</div>
-
 <p align="center">
-  <strong>Virtual Machine Manager</strong><br>
-  Automated VM lifecycle management using DevOps principles
+  <a href="https://github.com/kosmovuz/vm-manager">
+    <strong>🎮 Virtual Machine Manager</strong>
+  </a><br>
+  <em>Automated VM lifecycle management using DevOps principles</em>
 </p>
 
 <!-- CERTIFICATES -->
@@ -235,7 +205,7 @@
   </table>
 </div>
 
-<!-- CONTRIBUTION GRAPH (reliable alternative) -->
+<!-- CONTRIBUTION GRAPH -->
 <h2 align="center">📈 Contribution Graph</h2>
 
 <p align="center">
