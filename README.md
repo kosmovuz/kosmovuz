@@ -8,30 +8,6 @@
   <img src="https://readme-typing-svg.demolab.com/?lines=DevOps+Engineer;Infrastructure+as+Code+Specialist;Kubernetes+Enthusiast;Cloud+Native+Advocate&font=Fira%20Code&center=true&width=440&height=45&color=38BDF8&vCenter=true&size=22" />
 </p>
 
-<!-- INLINE CSS FOR PULSE ANIMATION & SPACING -->
-<style>
-  .pulse-icon {
-    display: inline-block;
-    margin: 5px;
-    animation: pulse 2s ease-in-out infinite;
-    transition: transform 0.3s ease;
-    vertical-align: middle;
-  }
-  .pulse-icon:hover {
-    transform: scale(1.2);
-  }
-  @keyframes pulse {
-    0% { opacity: 0.4; transform: scale(1); }
-    50% { opacity: 1; transform: scale(1.05); }
-    100% { opacity: 0.4; transform: scale(1); }
-  }
-  .badge-icon {
-    display: inline-block;
-    margin: 5px;
-    vertical-align: middle;
-  }
-</style>
-
 <!-- ABOUT ME -->
 <h2 align="center">👨‍💻 About Me</h2>
 
@@ -99,65 +75,65 @@
   </table>
 </p>
 
-<!-- TECH STACK – PULSING ICONS -->
+<!-- TECH STACK – ANIMATED GIF ICONS -->
 <h2 align="center">🛠️ Technology Stack</h2>
 
 <p align="center">
   <a href="https://kubernetes.io">
-    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/kubernetes.png" width="50" height="50" class="pulse-icon" />
+    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/kubernetes.svg" width="50" height="50" style="margin: 0 5px;" />
   </a>
   <a href="https://www.docker.com">
-    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/docker.png" width="50" height="50" class="pulse-icon" style="animation-delay: 0.3s;" />
+    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/docker.gif" width="50" height="50" style="margin: 0 5px;" />
   </a>
   <a href="https://www.terraform.io">
-    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/terraform.png" width="50" height="50" class="pulse-icon" style="animation-delay: 0.6s;" />
+    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/terraform.svg" width="50" height="50" style="margin: 0 5px;" />
   </a>
   <a href="https://www.ansible.com">
-    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/ansible.png" width="50" height="50" class="pulse-icon" style="animation-delay: 0.9s;" />
+    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/ansible.svg" width="50" height="50" style="margin: 0 5px;" />
   </a>
   <a href="https://about.gitlab.com">
-    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/gitlab.png" width="50" height="50" class="pulse-icon" style="animation-delay: 1.2s;" />
+    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/gitlab.svg" width="50" height="50" style="margin: 0 5px;" />
   </a>
   <a href="https://www.jenkins.io">
-    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/jenkins.png" width="50" height="50" class="pulse-icon" style="animation-delay: 0.15s;" />
+    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/jenkins.svg" width="50" height="50" style="margin: 0 5px;" />
   </a>
   <a href="https://prometheus.io">
-    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/prometheus.png" width="50" height="50" class="pulse-icon" style="animation-delay: 0.45s;" />
+    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/prometheus.svg" width="50" height="50" style="margin: 0 5px;" />
   </a>
   <a href="https://grafana.com">
-    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/grafana.png" width="50" height="50" class="pulse-icon" style="animation-delay: 0.75s;" />
+    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/grafana.svg" width="50" height="50" style="margin: 0 5px;" />
   </a>
   <a href="https://www.elastic.co/elasticsearch">
-    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/elasticsearch.png" width="50" height="50" class="pulse-icon" style="animation-delay: 1.05s;" />
+    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/elasticsearch.svg" width="50" height="50" style="margin: 0 5px;" />
   </a>
   <a href="https://www.postgresql.org">
-    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/postgresql.png" width="50" height="50" class="pulse-icon" style="animation-delay: 0.25s;" />
+    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/postgresql.svg" width="50" height="50" style="margin: 0 5px;" />
   </a>
   <a href="https://clickhouse.com">
-    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/clickhouse.png" width="50" height="50" class="pulse-icon" style="animation-delay: 0.55s;" />
+    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/clickhouse.svg" width="50" height="50" style="margin: 0 5px;" />
   </a>
   <a href="https://www.nginx.com">
-    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/nginx.png" width="50" height="50" class="pulse-icon" style="animation-delay: 0.85s;" />
+    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/nginx.svg" width="50" height="50" style="margin: 0 5px;" />
   </a>
   <a href="https://www.vaultproject.io">
-    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/vault.png" width="50" height="50" class="pulse-icon" style="animation-delay: 1.15s;" />
+    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/vault.svg" width="50" height="50" style="margin: 0 5px;" />
   </a>
   <a href="https://www.python.org">
-    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/python.png" width="50" height="50" class="pulse-icon" style="animation-delay: 0.35s;" />
+    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/python.svg" width="50" height="50" style="margin: 0 5px;" />
   </a>
   <a href="https://www.gnu.org/software/bash">
-    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/bash.png" width="50" height="50" class="pulse-icon" style="animation-delay: 0.65s;" />
+    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/bash.svg" width="50" height="50" style="margin: 0 5px;" />
   </a>
   <a href="https://www.linux.org">
-    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/linux.png" width="50" height="50" class="pulse-icon" style="animation-delay: 0.95s;" />
+    <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/linux.svg" width="50" height="50" style="margin: 0 5px;" />
   </a>
-  <!-- Yandex Cloud & VK Cloud as badges with same size and pulse -->
+  <!-- Yandex Cloud & VK Cloud as badges (static, but styled to match) -->
   <a href="https://cloud.yandex.com">
-  <img src="https://img.shields.io/badge/Yandex_Cloud-0288D1?style=for-the-badge&logo=yandexcloud&logoColor=white" class="pulse-icon" style="height:50px;" />
-</a>
-<a href="https://vk.com">
-  <img src="https://img.shields.io/badge/VK_Cloud-0077FF?style=for-the-badge&logo=vk&logoColor=white" class="pulse-icon" style="height:50px;" />
-</a>
+    <img src="https://img.shields.io/badge/Yandex_Cloud-0288D1?style=for-the-badge&logo=yandexcloud&logoColor=white" style="height:50px; margin: 0 5px;" />
+  </a>
+  <a href="https://vk.com">
+    <img src="https://img.shields.io/badge/VK_Cloud-0077FF?style=for-the-badge&logo=vk&logoColor=white" style="height:50px; margin: 0 5px;" />
+  </a>
 </p>
 
 <!-- Skill levels -->
