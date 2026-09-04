@@ -19,11 +19,11 @@
   </samp>
 </p>
 
-<!-- STATS CARDS (Fixed) -->
+<!-- STATS CARDS (using reliable summary cards) -->
 <p align="center">
   <a href="https://github.com/kosmovuz">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=kosmovuz&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kosmovuz&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=38BDF8&langs_count=6"/>
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile?username=kosmovuz&theme=radical" width="49%" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kosmovuz&theme=radical" width="49%" />
   </a>
 </p>
 
@@ -76,159 +76,106 @@
   </table>
 </p>
 
-<!-- TECH STACK – Animated SVG Icons (Blinking/Pulsing) -->
+<!-- TECH STACK – Animated Typing + Blinking SVG Icons -->
 <h2 align="center">🛠️ Technology Stack</h2>
 
+<!-- Animated typing for technology list -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?lines=Kubernetes+%7C+Docker+%7C+Terraform;Ansible+%7C+GitLab+CI+%7C+Jenkins;Prometheus+%7C+Grafana+%7C+ELK;PostgreSQL+%7C+ClickHouse+%7C+AWS+S3;Nginx+%7C+Vault+%7C+Python+%7C+Bash&font=Fira%20Code&center=true&width=600&height=60&color=38BDF8&vCenter=true&size=25" />
+</p>
+
+<!-- Blinking Icons (SVG with animation – works on GitHub) -->
 <p align="center">
   <!-- Kubernetes -->
-  <a href="https://kubernetes.io">
-    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="64" cy="64" r="60" fill="#326CE5" />
-      <text x="64" y="78" font-size="40" text-anchor="middle" fill="white" font-weight="bold">K</text>
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite" />
-      <animate attributeName="filter" values="drop-shadow(0 0 5px #326CE5);drop-shadow(0 0 20px #326CE5);drop-shadow(0 0 5px #326CE5)" dur="2s" repeatCount="indefinite" />
-    </svg>
-  </a>
-  
+  <svg width="50" height="50" viewBox="0 0 50 50">
+    <circle cx="25" cy="25" r="23" fill="#326CE5"/>
+    <text x="25" y="32" font-size="20" fill="white" text-anchor="middle" font-weight="bold">K</text>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+  </svg>
   <!-- Docker -->
-  <a href="https://www.docker.com">
-    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="64" cy="64" r="60" fill="#2496ED" />
-      <text x="64" y="78" font-size="40" text-anchor="middle" fill="white" font-weight="bold">D</text>
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite" />
-      <animate attributeName="filter" values="drop-shadow(0 0 5px #2496ED);drop-shadow(0 0 20px #2496ED);drop-shadow(0 0 5px #2496ED)" dur="2.5s" repeatCount="indefinite" />
-    </svg>
-  </a>
-
+  <svg width="50" height="50" viewBox="0 0 50 50">
+    <circle cx="25" cy="25" r="23" fill="#2496ED"/>
+    <text x="25" y="32" font-size="18" fill="white" text-anchor="middle" font-weight="bold">D</text>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/>
+  </svg>
   <!-- Terraform -->
-  <a href="https://www.terraform.io">
-    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="64" cy="64" r="60" fill="#7B42BC" />
-      <text x="64" y="78" font-size="40" text-anchor="middle" fill="white" font-weight="bold">T</text>
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="1.8s" repeatCount="indefinite" />
-      <animate attributeName="filter" values="drop-shadow(0 0 5px #7B42BC);drop-shadow(0 0 20px #7B42BC);drop-shadow(0 0 5px #7B42BC)" dur="1.8s" repeatCount="indefinite" />
-    </svg>
-  </a>
-
+  <svg width="50" height="50" viewBox="0 0 50 50">
+    <circle cx="25" cy="25" r="23" fill="#7B42BC"/>
+    <text x="25" y="32" font-size="18" fill="white" text-anchor="middle" font-weight="bold">T</text>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/>
+  </svg>
   <!-- Ansible -->
-  <a href="https://www.ansible.com">
-    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="64" cy="64" r="60" fill="#EE0000" />
-      <text x="64" y="78" font-size="40" text-anchor="middle" fill="white" font-weight="bold">A</text>
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite" />
-      <animate attributeName="filter" values="drop-shadow(0 0 5px #EE0000);drop-shadow(0 0 20px #EE0000);drop-shadow(0 0 5px #EE0000)" dur="3s" repeatCount="indefinite" />
-    </svg>
-  </a>
-
-  <!-- GitLab CI -->
-  <a href="https://about.gitlab.com">
-    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="64" cy="64" r="60" fill="#FC6D26" />
-      <text x="64" y="78" font-size="40" text-anchor="middle" fill="white" font-weight="bold">G</text>
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.2s" repeatCount="indefinite" />
-      <animate attributeName="filter" values="drop-shadow(0 0 5px #FC6D26);drop-shadow(0 0 20px #FC6D26);drop-shadow(0 0 5px #FC6D26)" dur="2.2s" repeatCount="indefinite" />
-    </svg>
-  </a>
-
+  <svg width="50" height="50" viewBox="0 0 50 50">
+    <circle cx="25" cy="25" r="23" fill="#EE0000"/>
+    <text x="25" y="32" font-size="18" fill="white" text-anchor="middle" font-weight="bold">A</text>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+  </svg>
+  <!-- GitLab -->
+  <svg width="50" height="50" viewBox="0 0 50 50">
+    <circle cx="25" cy="25" r="23" fill="#FC6D26"/>
+    <text x="25" y="32" font-size="16" fill="white" text-anchor="middle" font-weight="bold">GL</text>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/>
+  </svg>
   <!-- Jenkins -->
-  <a href="https://www.jenkins.io">
-    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="64" cy="64" r="60" fill="#D24939" />
-      <text x="64" y="78" font-size="40" text-anchor="middle" fill="white" font-weight="bold">J</text>
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.8s" repeatCount="indefinite" />
-      <animate attributeName="filter" values="drop-shadow(0 0 5px #D24939);drop-shadow(0 0 20px #D24939);drop-shadow(0 0 5px #D24939)" dur="2.8s" repeatCount="indefinite" />
-    </svg>
-  </a>
-
+  <svg width="50" height="50" viewBox="0 0 50 50">
+    <circle cx="25" cy="25" r="23" fill="#D24939"/>
+    <text x="25" y="32" font-size="18" fill="white" text-anchor="middle" font-weight="bold">J</text>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite"/>
+  </svg>
   <!-- Prometheus -->
-  <a href="https://prometheus.io">
-    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="64" cy="64" r="60" fill="#E6522C" />
-      <text x="64" y="78" font-size="40" text-anchor="middle" fill="white" font-weight="bold">P</text>
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="1.5s" repeatCount="indefinite" />
-      <animate attributeName="filter" values="drop-shadow(0 0 5px #E6522C);drop-shadow(0 0 20px #E6522C);drop-shadow(0 0 5px #E6522C)" dur="1.5s" repeatCount="indefinite" />
-    </svg>
-  </a>
-
+  <svg width="50" height="50" viewBox="0 0 50 50">
+    <circle cx="25" cy="25" r="23" fill="#E6522C"/>
+    <text x="25" y="32" font-size="16" fill="white" text-anchor="middle" font-weight="bold">Prom</text>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" repeatCount="indefinite"/>
+  </svg>
   <!-- Grafana -->
-  <a href="https://grafana.com">
-    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="64" cy="64" r="60" fill="#F46800" />
-      <text x="64" y="78" font-size="40" text-anchor="middle" fill="white" font-weight="bold">Gf</text>
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="3.2s" repeatCount="indefinite" />
-      <animate attributeName="filter" values="drop-shadow(0 0 5px #F46800);drop-shadow(0 0 20px #F46800);drop-shadow(0 0 5px #F46800)" dur="3.2s" repeatCount="indefinite" />
-    </svg>
-  </a>
-
+  <svg width="50" height="50" viewBox="0 0 50 50">
+    <circle cx="25" cy="25" r="23" fill="#F46800"/>
+    <text x="25" y="32" font-size="16" fill="white" text-anchor="middle" font-weight="bold">Graf</text>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3.2s" repeatCount="indefinite"/>
+  </svg>
   <!-- PostgreSQL -->
-  <a href="https://www.postgresql.org">
-    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="64" cy="64" r="60" fill="#4169E1" />
-      <text x="64" y="78" font-size="35" text-anchor="middle" fill="white" font-weight="bold">PG</text>
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.1s" repeatCount="indefinite" />
-      <animate attributeName="filter" values="drop-shadow(0 0 5px #4169E1);drop-shadow(0 0 20px #4169E1);drop-shadow(0 0 5px #4169E1)" dur="2.1s" repeatCount="indefinite" />
-    </svg>
-  </a>
-
+  <svg width="50" height="50" viewBox="0 0 50 50">
+    <circle cx="25" cy="25" r="23" fill="#4169E1"/>
+    <text x="25" y="32" font-size="15" fill="white" text-anchor="middle" font-weight="bold">PG</text>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.1s" repeatCount="indefinite"/>
+  </svg>
   <!-- ClickHouse -->
-  <a href="https://clickhouse.com">
-    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="64" cy="64" r="60" fill="#FFCC01" />
-      <text x="64" y="78" font-size="35" text-anchor="middle" fill="black" font-weight="bold">CH</text>
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.7s" repeatCount="indefinite" />
-      <animate attributeName="filter" values="drop-shadow(0 0 5px #FFCC01);drop-shadow(0 0 20px #FFCC01);drop-shadow(0 0 5px #FFCC01)" dur="2.7s" repeatCount="indefinite" />
-    </svg>
-  </a>
-
+  <svg width="50" height="50" viewBox="0 0 50 50">
+    <circle cx="25" cy="25" r="23" fill="#FFCC01"/>
+    <text x="25" y="32" font-size="14" fill="black" text-anchor="middle" font-weight="bold">CH</text>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.7s" repeatCount="indefinite"/>
+  </svg>
   <!-- Nginx -->
-  <a href="https://www.nginx.com">
-    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="64" cy="64" r="60" fill="#009639" />
-      <text x="64" y="78" font-size="40" text-anchor="middle" fill="white" font-weight="bold">N</text>
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="1.9s" repeatCount="indefinite" />
-      <animate attributeName="filter" values="drop-shadow(0 0 5px #009639);drop-shadow(0 0 20px #009639);drop-shadow(0 0 5px #009639)" dur="1.9s" repeatCount="indefinite" />
-    </svg>
-  </a>
-
+  <svg width="50" height="50" viewBox="0 0 50 50">
+    <circle cx="25" cy="25" r="23" fill="#009639"/>
+    <text x="25" y="32" font-size="18" fill="white" text-anchor="middle" font-weight="bold">N</text>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="1.9s" repeatCount="indefinite"/>
+  </svg>
   <!-- Vault -->
-  <a href="https://www.vaultproject.io">
-    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="64" cy="64" r="60" fill="#000000" />
-      <text x="64" y="78" font-size="35" text-anchor="middle" fill="white" font-weight="bold">Vault</text>
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="3.5s" repeatCount="indefinite" />
-      <animate attributeName="filter" values="drop-shadow(0 0 5px #888888);drop-shadow(0 0 20px #888888);drop-shadow(0 0 5px #888888)" dur="3.5s" repeatCount="indefinite" />
-    </svg>
-  </a>
-
+  <svg width="50" height="50" viewBox="0 0 50 50">
+    <circle cx="25" cy="25" r="23" fill="#000000"/>
+    <text x="25" y="32" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Vault</text>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3.5s" repeatCount="indefinite"/>
+  </svg>
   <!-- Python -->
-  <a href="https://www.python.org">
-    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="64" cy="64" r="60" fill="#3776AB" />
-      <text x="64" y="78" font-size="40" text-anchor="middle" fill="white" font-weight="bold">Py</text>
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.3s" repeatCount="indefinite" />
-      <animate attributeName="filter" values="drop-shadow(0 0 5px #3776AB);drop-shadow(0 0 20px #3776AB);drop-shadow(0 0 5px #3776AB)" dur="2.3s" repeatCount="indefinite" />
-    </svg>
-  </a>
-
+  <svg width="50" height="50" viewBox="0 0 50 50">
+    <circle cx="25" cy="25" r="23" fill="#3776AB"/>
+    <text x="25" y="32" font-size="16" fill="white" text-anchor="middle" font-weight="bold">Py</text>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.3s" repeatCount="indefinite"/>
+  </svg>
   <!-- Bash -->
-  <a href="https://www.gnu.org/software/bash">
-    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="64" cy="64" r="60" fill="#4EAA25" />
-      <text x="64" y="78" font-size="40" text-anchor="middle" fill="white" font-weight="bold">Bash</text>
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.9s" repeatCount="indefinite" />
-      <animate attributeName="filter" values="drop-shadow(0 0 5px #4EAA25);drop-shadow(0 0 20px #4EAA25);drop-shadow(0 0 5px #4EAA25)" dur="2.9s" repeatCount="indefinite" />
-    </svg>
-  </a>
-
+  <svg width="50" height="50" viewBox="0 0 50 50">
+    <circle cx="25" cy="25" r="23" fill="#4EAA25"/>
+    <text x="25" y="32" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Bash</text>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.9s" repeatCount="indefinite"/>
+  </svg>
   <!-- Linux -->
-  <a href="https://www.linux.org">
-    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="64" cy="64" r="60" fill="#FCC624" />
-      <text x="64" y="78" font-size="30" text-anchor="middle" fill="black" font-weight="bold">Linux</text>
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.4s" repeatCount="indefinite" />
-      <animate attributeName="filter" values="drop-shadow(0 0 5px #FCC624);drop-shadow(0 0 20px #FCC624);drop-shadow(0 0 5px #FCC624)" dur="2.4s" repeatCount="indefinite" />
-    </svg>
-  </a>
+  <svg width="50" height="50" viewBox="0 0 50 50">
+    <circle cx="25" cy="25" r="23" fill="#FCC624"/>
+    <text x="25" y="32" font-size="14" fill="black" text-anchor="middle" font-weight="bold">Linux</text>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/>
+  </svg>
 </p>
 
 <!-- Skill Levels (static badges) -->
@@ -288,11 +235,14 @@
   </table>
 </div>
 
-<!-- CONTRIBUTION GRAPH (fixed service) -->
+<!-- CONTRIBUTION GRAPH (reliable alternative) -->
 <h2 align="center">📈 Contribution Graph</h2>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kosmovuz&theme=react-dark&bg_color=0D1117&hide_border=true&area=true&custom_title=My%20Contribution%20Graph" width="100%" />
+  <img src="https://ghchart.rshah.org/kosmovuz" alt="GitHub Contribution Chart" />
+</p>
+<p align="center">
+  <sub>View full contributions on <a href="https://github.com/kosmovuz">GitHub</a></sub>
 </p>
 
 <!-- CONTACT -->
@@ -323,7 +273,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2,3,4&height=150&section=footer&width=100%" />
 </p>
 
-<!-- STREAK STATS (optional extra) -->
+<!-- STREAK STATS (optional) -->
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=kosmovuz&theme=radical&hide_border=true&background=0D1117&stroke=38BDF8&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" />
 </p>
