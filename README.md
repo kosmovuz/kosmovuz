@@ -19,10 +19,10 @@
   </samp>
 </p>
 
-<!-- STATS CARDS – only one reliable card -->
+<!-- STATS CARDS – only one card -->
 <p align="center">
   <a href="https://github.com/kosmovuz">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile?username=kosmovuz&theme=radical" width="49%" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kosmovuz&theme=radical" width="49%" />
   </a>
 </p>
 
@@ -50,7 +50,8 @@
         • Automated VM lifecycle management<br>
         • Infrastructure as Code implementation<br>
         • CI/CD pipeline for VM provisioning<br>
-        • Monitoring and logging setup
+        • Monitoring and logging setup<br>
+        • <a href="https://github.com/kosmovuz/vm-manager">🔗 View Repository</a>
       </p>
     </td>
   </tr>
@@ -74,75 +75,123 @@
   </table>
 </p>
 
-<!-- TECH STACK – Animated Logos (with pulsing glow) -->
+<!-- TECH STACK – LOCAL IMAGES WITH PULSING ANIMATION -->
 <h2 align="center">🛠️ Technology Stack</h2>
 
 <p align="center">
   <!-- Kubernetes -->
   <a href="https://kubernetes.io">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain-wordmark.svg" width="50" height="50" style="transition: 0.3s;" />
+    <svg width="50" height="50" viewBox="0 0 50 50">
+      <image href="assets/images/kubernetes.svg" width="50" height="50" />
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" />
+    </svg>
   </a>
   <!-- Docker -->
   <a href="https://www.docker.com">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" width="50" height="50" />
+    <svg width="50" height="50" viewBox="0 0 50 50">
+      <image href="assets/images/docker.svg" width="50" height="50" />
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite" />
+    </svg>
   </a>
   <!-- Terraform -->
   <a href="https://www.terraform.io">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original-wordmark.svg" width="50" height="50" />
+    <svg width="50" height="50" viewBox="0 0 50 50">
+      <image href="assets/images/terraform.svg" width="50" height="50" />
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite" />
+    </svg>
   </a>
   <!-- Ansible -->
   <a href="https://www.ansible.com">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original-wordmark.svg" width="50" height="50" />
+    <svg width="50" height="50" viewBox="0 0 50 50">
+      <image href="assets/images/ansible.svg" width="50" height="50" />
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite" />
+    </svg>
   </a>
   <!-- GitLab -->
   <a href="https://about.gitlab.com">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original-wordmark.svg" width="50" height="50" />
+    <svg width="50" height="50" viewBox="0 0 50 50">
+      <image href="assets/images/gitlab.svg" width="50" height="50" />
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite" />
+    </svg>
   </a>
   <!-- Jenkins -->
   <a href="https://www.jenkins.io">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" width="50" height="50" />
+    <svg width="50" height="50" viewBox="0 0 50 50">
+      <image href="assets/images/jenkins.svg" width="50" height="50" />
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.8s" repeatCount="indefinite" />
+    </svg>
   </a>
   <!-- Prometheus -->
   <a href="https://prometheus.io">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original-wordmark.svg" width="50" height="50" />
+    <svg width="50" height="50" viewBox="0 0 50 50">
+      <image href="assets/images/prometheus.svg" width="50" height="50" />
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.5s" repeatCount="indefinite" />
+    </svg>
   </a>
   <!-- Grafana -->
   <a href="https://grafana.com">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original-wordmark.svg" width="50" height="50" />
+    <svg width="50" height="50" viewBox="0 0 50 50">
+      <image href="assets/images/grafana.svg" width="50" height="50" />
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.2s" repeatCount="indefinite" />
+    </svg>
   </a>
   <!-- Elasticsearch -->
   <a href="https://www.elastic.co/elasticsearch">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original-wordmark.svg" width="50" height="50" />
+    <svg width="50" height="50" viewBox="0 0 50 50">
+      <image href="assets/images/elasticsearch.svg" width="50" height="50" />
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.1s" repeatCount="indefinite" />
+    </svg>
   </a>
   <!-- PostgreSQL -->
   <a href="https://www.postgresql.org">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" width="50" height="50" />
+    <svg width="50" height="50" viewBox="0 0 50 50">
+      <image href="assets/images/postgresql.svg" width="50" height="50" />
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.7s" repeatCount="indefinite" />
+    </svg>
   </a>
   <!-- ClickHouse -->
   <a href="https://clickhouse.com">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/clickhouse/clickhouse-original-wordmark.svg" width="50" height="50" />
+    <svg width="50" height="50" viewBox="0 0 50 50">
+      <image href="assets/images/clickhouse.svg" width="50" height="50" />
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.9s" repeatCount="indefinite" />
+    </svg>
   </a>
   <!-- Nginx -->
   <a href="https://www.nginx.com">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="50" height="50" />
+    <svg width="50" height="50" viewBox="0 0 50 50">
+      <image href="assets/images/nginx.svg" width="50" height="50" />
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite" />
+    </svg>
   </a>
   <!-- Vault -->
   <a href="https://www.vaultproject.io">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vault/vault-original-wordmark.svg" width="50" height="50" />
+    <svg width="50" height="50" viewBox="0 0 50 50">
+      <image href="assets/images/vault.svg" width="50" height="50" />
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.5s" repeatCount="indefinite" />
+    </svg>
   </a>
   <!-- Python -->
   <a href="https://www.python.org">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="50" height="50" />
+    <svg width="50" height="50" viewBox="0 0 50 50">
+      <image href="assets/images/python.svg" width="50" height="50" />
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.3s" repeatCount="indefinite" />
+    </svg>
   </a>
   <!-- Bash -->
   <a href="https://www.gnu.org/software/bash">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="50" height="50" />
+    <svg width="50" height="50" viewBox="0 0 50 50">
+      <image href="assets/images/bash.svg" width="50" height="50" />
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.9s" repeatCount="indefinite" />
+    </svg>
   </a>
   <!-- Linux -->
   <a href="https://www.linux.org">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="50" height="50" />
+    <svg width="50" height="50" viewBox="0 0 50 50">
+      <image href="assets/images/linux.svg" width="50" height="50" />
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite" />
+    </svg>
   </a>
-  <!-- Yandex Cloud (unofficial, but we can use a badge) -->
+  <!-- Yandex Cloud -->
   <a href="https://cloud.yandex.com">
     <img src="https://img.shields.io/badge/Yandex_Cloud-0288D1?style=for-the-badge&logo=yandexcloud&logoColor=white" />
   </a>
