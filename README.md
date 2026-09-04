@@ -2,7 +2,7 @@
 I am Aswadh Puthen Veede
 
 ![messagif](https://github.com/user-attachments/assets/d4c978a4-9a57-4beb-a5e0-59a23f253b54)                         
-- 🔭 I’m worked as DevOps Middle Engineer in Citilink
+- 🔭 I worked as DevOps Middle Engineer in Citilink
 - 🌱 I’m currently learning cybersecurity(internet security)
 - 💬 Ask me about any programming language
 - 📫 How to reach me: I have Telegram link
