@@ -19,7 +19,7 @@
   </samp>
 </p>
 
-<!-- STATS CARDS – only one card -->
+<!-- STATS CARDS -->
 <p align="center">
   <a href="https://github.com/kosmovuz">
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kosmovuz&theme=radical" width="49%" />
@@ -75,120 +75,120 @@
   </table>
 </p>
 
-<!-- TECH STACK – LOCAL IMAGES WITH PULSING ANIMATION -->
+<!-- TECH STACK – PULSING PNG ICONS WITH ABSOLUTE URLs -->
 <h2 align="center">🛠️ Technology Stack</h2>
 
 <p align="center">
   <!-- Kubernetes -->
   <a href="https://kubernetes.io">
     <svg width="50" height="50" viewBox="0 0 50 50">
-      <image href="assets/images/kubernetes.svg" width="50" height="50" />
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" />
+      <image href="https://raw.githubusercontent.com/kosmovuz/kosmovuz/main/assets/images/kubernetes.png" width="50" height="50" />
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
     </svg>
   </a>
   <!-- Docker -->
   <a href="https://www.docker.com">
     <svg width="50" height="50" viewBox="0 0 50 50">
-      <image href="assets/images/docker.svg" width="50" height="50" />
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite" />
+      <image href="https://raw.githubusercontent.com/kosmovuz/kosmovuz/main/assets/images/docker.png" width="50" height="50" />
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite" />
     </svg>
   </a>
   <!-- Terraform -->
   <a href="https://www.terraform.io">
     <svg width="50" height="50" viewBox="0 0 50 50">
-      <image href="assets/images/terraform.svg" width="50" height="50" />
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite" />
+      <image href="https://raw.githubusercontent.com/kosmovuz/kosmovuz/main/assets/images/terraform.png" width="50" height="50" />
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite" />
     </svg>
   </a>
   <!-- Ansible -->
   <a href="https://www.ansible.com">
     <svg width="50" height="50" viewBox="0 0 50 50">
-      <image href="assets/images/ansible.svg" width="50" height="50" />
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite" />
+      <image href="https://raw.githubusercontent.com/kosmovuz/kosmovuz/main/assets/images/ansible.png" width="50" height="50" />
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite" />
     </svg>
   </a>
   <!-- GitLab -->
   <a href="https://about.gitlab.com">
     <svg width="50" height="50" viewBox="0 0 50 50">
-      <image href="assets/images/gitlab.svg" width="50" height="50" />
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite" />
+      <image href="https://raw.githubusercontent.com/kosmovuz/kosmovuz/main/assets/images/gitlab.png" width="50" height="50" />
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite" />
     </svg>
   </a>
   <!-- Jenkins -->
   <a href="https://www.jenkins.io">
     <svg width="50" height="50" viewBox="0 0 50 50">
-      <image href="assets/images/jenkins.svg" width="50" height="50" />
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.8s" repeatCount="indefinite" />
+      <image href="https://raw.githubusercontent.com/kosmovuz/kosmovuz/main/assets/images/jenkins.png" width="50" height="50" />
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite" />
     </svg>
   </a>
   <!-- Prometheus -->
   <a href="https://prometheus.io">
     <svg width="50" height="50" viewBox="0 0 50 50">
-      <image href="assets/images/prometheus.svg" width="50" height="50" />
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.5s" repeatCount="indefinite" />
+      <image href="https://raw.githubusercontent.com/kosmovuz/kosmovuz/main/assets/images/prometheus.png" width="50" height="50" />
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" repeatCount="indefinite" />
     </svg>
   </a>
   <!-- Grafana -->
   <a href="https://grafana.com">
     <svg width="50" height="50" viewBox="0 0 50 50">
-      <image href="assets/images/grafana.svg" width="50" height="50" />
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.2s" repeatCount="indefinite" />
+      <image href="https://raw.githubusercontent.com/kosmovuz/kosmovuz/main/assets/images/grafana.png" width="50" height="50" />
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="3.2s" repeatCount="indefinite" />
     </svg>
   </a>
   <!-- Elasticsearch -->
   <a href="https://www.elastic.co/elasticsearch">
     <svg width="50" height="50" viewBox="0 0 50 50">
-      <image href="assets/images/elasticsearch.svg" width="50" height="50" />
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.1s" repeatCount="indefinite" />
+      <image href="https://raw.githubusercontent.com/kosmovuz/kosmovuz/main/assets/images/elasticsearch.png" width="50" height="50" />
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.1s" repeatCount="indefinite" />
     </svg>
   </a>
   <!-- PostgreSQL -->
   <a href="https://www.postgresql.org">
     <svg width="50" height="50" viewBox="0 0 50 50">
-      <image href="assets/images/postgresql.svg" width="50" height="50" />
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.7s" repeatCount="indefinite" />
+      <image href="https://raw.githubusercontent.com/kosmovuz/kosmovuz/main/assets/images/postgresql.png" width="50" height="50" />
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.7s" repeatCount="indefinite" />
     </svg>
   </a>
   <!-- ClickHouse -->
   <a href="https://clickhouse.com">
     <svg width="50" height="50" viewBox="0 0 50 50">
-      <image href="assets/images/clickhouse.svg" width="50" height="50" />
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.9s" repeatCount="indefinite" />
+      <image href="https://raw.githubusercontent.com/kosmovuz/kosmovuz/main/assets/images/clickhouse.png" width="50" height="50" />
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.9s" repeatCount="indefinite" />
     </svg>
   </a>
   <!-- Nginx -->
   <a href="https://www.nginx.com">
     <svg width="50" height="50" viewBox="0 0 50 50">
-      <image href="assets/images/nginx.svg" width="50" height="50" />
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite" />
+      <image href="https://raw.githubusercontent.com/kosmovuz/kosmovuz/main/assets/images/nginx.png" width="50" height="50" />
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite" />
     </svg>
   </a>
   <!-- Vault -->
   <a href="https://www.vaultproject.io">
     <svg width="50" height="50" viewBox="0 0 50 50">
-      <image href="assets/images/vault.svg" width="50" height="50" />
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.5s" repeatCount="indefinite" />
+      <image href="https://raw.githubusercontent.com/kosmovuz/kosmovuz/main/assets/images/vault.png" width="50" height="50" />
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="3.5s" repeatCount="indefinite" />
     </svg>
   </a>
   <!-- Python -->
   <a href="https://www.python.org">
     <svg width="50" height="50" viewBox="0 0 50 50">
-      <image href="assets/images/python.svg" width="50" height="50" />
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.3s" repeatCount="indefinite" />
+      <image href="https://raw.githubusercontent.com/kosmovuz/kosmovuz/main/assets/images/python.png" width="50" height="50" />
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.3s" repeatCount="indefinite" />
     </svg>
   </a>
   <!-- Bash -->
   <a href="https://www.gnu.org/software/bash">
     <svg width="50" height="50" viewBox="0 0 50 50">
-      <image href="assets/images/bash.svg" width="50" height="50" />
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.9s" repeatCount="indefinite" />
+      <image href="https://raw.githubusercontent.com/kosmovuz/kosmovuz/main/assets/images/bash.png" width="50" height="50" />
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.9s" repeatCount="indefinite" />
     </svg>
   </a>
   <!-- Linux -->
   <a href="https://www.linux.org">
     <svg width="50" height="50" viewBox="0 0 50 50">
-      <image href="assets/images/linux.svg" width="50" height="50" />
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite" />
+      <image href="https://raw.githubusercontent.com/kosmovuz/kosmovuz/main/assets/images/linux.png" width="50" height="50" />
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite" />
     </svg>
   </a>
   <!-- Yandex Cloud -->
@@ -213,7 +213,7 @@
   <img src="https://img.shields.io/badge/Ansible-Advanced-EE0000?style=for-the-badge&logo=ansible&logoColor=white" />
 </p>
 
-<!-- FEATURED PROJECT – emoji + link -->
+<!-- FEATURED PROJECT -->
 <h2 align="center">📁 Featured Project</h2>
 
 <p align="center">
@@ -292,7 +292,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2,3,4&height=150&section=footer&width=100%" />
 </p>
 
-<!-- STREAK STATS (optional) -->
+<!-- STREAK STATS -->
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=kosmovuz&theme=radical&hide_border=true&background=0D1117&stroke=38BDF8&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" />
 </p>
