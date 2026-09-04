@@ -76,87 +76,41 @@
   </table>
 </p>
 
-<!-- TECH STACK WITH HOVER EFFECTS & ANIMATED ICONS -->
+<!-- TECH STACK – using shields.io badges with logos -->
 <h2 align="center">🛠️ Technology Stack</h2>
 
-<!-- Inline styles for hover animations -->
-<style>
-  .tech-icon {
-    display: inline-block;
-    margin: 5px;
-    transition: transform 0.3s ease, filter 0.3s ease;
-    filter: grayscale(20%);
-  }
-  .tech-icon:hover {
-    transform: scale(1.2) rotate(5deg);
-    filter: grayscale(0%) drop-shadow(0 0 8px #38BDF8);
-  }
-</style>
-
 <p align="center">
-  <a href="https://kubernetes.io" target="_blank" class="tech-icon">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain-wordmark.svg" alt="Kubernetes" width="60" height="60" />
-  </a>
-  <a href="https://www.docker.com" target="_blank" class="tech-icon">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker" width="60" height="60" />
-  </a>
-  <a href="https://www.terraform.io" target="_blank" class="tech-icon">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original-wordmark.svg" alt="Terraform" width="60" height="60" />
-  </a>
-  <a href="https://www.ansible.com" target="_blank" class="tech-icon">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ansible/ansible-original-wordmark.svg" alt="Ansible" width="60" height="60" />
-  </a>
-  <a href="https://about.gitlab.com" target="_blank" class="tech-icon">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gitlab/gitlab-original-wordmark.svg" alt="GitLab" width="60" height="60" />
-  </a>
-  <a href="https://www.jenkins.io" target="_blank" class="tech-icon">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" alt="Jenkins" width="60" height="60" />
-  </a>
-  <a href="https://prometheus.io" target="_blank" class="tech-icon">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/prometheus/prometheus-original-wordmark.svg" alt="Prometheus" width="60" height="60" />
-  </a>
-  <a href="https://grafana.com" target="_blank" class="tech-icon">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/grafana/grafana-original-wordmark.svg" alt="Grafana" width="60" height="60" />
-  </a>
-  <a href="https://www.elastic.co/elasticsearch" target="_blank" class="tech-icon">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/elasticsearch/elasticsearch-original-wordmark.svg" alt="Elasticsearch" width="60" height="60" />
-  </a>
-  <a href="https://www.postgresql.org" target="_blank" class="tech-icon">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL" width="60" height="60" />
-  </a>
-  <a href="https://clickhouse.com" target="_blank" class="tech-icon">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/clickhouse/clickhouse-original-wordmark.svg" alt="ClickHouse" width="60" height="60" />
-  </a>
-  <a href="https://aws.amazon.com/s3" target="_blank" class="tech-icon">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS S3" width="60" height="60" />
-  </a>
-  <a href="https://www.nginx.com" target="_blank" class="tech-icon">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="Nginx" width="60" height="60" />
-  </a>
-  <a href="https://www.vaultproject.io" target="_blank" class="tech-icon">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vault/vault-original-wordmark.svg" alt="HashiCorp Vault" width="60" height="60" />
-  </a>
-  <a href="https://www.python.org" target="_blank" class="tech-icon">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" alt="Python" width="60" height="60" />
-  </a>
-  <a href="https://www.gnu.org/software/bash" target="_blank" class="tech-icon">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" alt="Bash" width="60" height="60" />
-  </a>
-  <a href="https://www.linux.org" target="_blank" class="tech-icon">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="60" height="60" />
-  </a>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
+  <img src="https://img.shields.io/badge/Elastic_Stack-005571?style=for-the-badge&logo=elasticstack&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=black" />
+  <img src="https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
+  <img src="https://img.shields.io/badge/HashiCorp_Vault-000000?style=for-the-badge&logo=vault&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Yandex_Cloud-0288D1?style=for-the-badge&logo=yandexcloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/VK_Cloud-0077FF?style=for-the-badge&logo=vk&logoColor=white" />
 </p>
 
-<!-- ADDITIONAL BADGES (optional) -->
+<!-- Skill levels (optional) -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Kubernetes-Expert-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white&labelColor=0D1117">
-  <img src="https://img.shields.io/badge/Docker-Expert-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=0D1117">
-  <img src="https://img.shields.io/badge/Terraform-Expert-7B42BC?style=for-the-badge&logo=terraform&logoColor=white&labelColor=0D1117">
-  <img src="https://img.shields.io/badge/Ansible-Advanced-EE0000?style=for-the-badge&logo=ansible&logoColor=white&labelColor=0D1117">
-  <img src="https://img.shields.io/badge/GitLab_CI-Expert-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white&labelColor=0D1117">
-  <img src="https://img.shields.io/badge/Prometheus-Advanced-E6522C?style=for-the-badge&logo=prometheus&logoColor=white&labelColor=0D1117">
-  <img src="https://img.shields.io/badge/Grafana-Advanced-F46800?style=for-the-badge&logo=grafana&logoColor=white&labelColor=0D1117">
-  <img src="https://img.shields.io/badge/Python-Advanced-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0D1117">
+  <img src="https://img.shields.io/badge/Kubernetes-Expert-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-Expert-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Terraform-Expert-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ansible-Advanced-EE0000?style=for-the-badge&logo=ansible&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitLab_CI-Expert-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prometheus-Advanced-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Grafana-Advanced-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-Advanced-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 </p>
 
 <!-- PROJECT HIGHLIGHT -->
@@ -223,16 +177,16 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/kosmovuz">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://t.me/kosmovuz">
-    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0D1117" />
+    <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
   <a href="mailto:aswadhpvs@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" />
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://github.com/kosmovuz">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" />
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
 
