@@ -8,6 +8,30 @@
   <img src="https://readme-typing-svg.demolab.com/?lines=DevOps+Engineer;Infrastructure+as+Code+Specialist;Kubernetes+Enthusiast;Cloud+Native+Advocate&font=Fira%20Code&center=true&width=440&height=45&color=38BDF8&vCenter=true&size=22" />
 </p>
 
+<!-- INLINE CSS FOR PULSE ANIMATION & SPACING -->
+<style>
+  .pulse-icon {
+    display: inline-block;
+    margin: 5px;
+    animation: pulse 2s ease-in-out infinite;
+    transition: transform 0.3s ease;
+    vertical-align: middle;
+  }
+  .pulse-icon:hover {
+    transform: scale(1.2);
+  }
+  @keyframes pulse {
+    0% { opacity: 0.4; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.05); }
+    100% { opacity: 0.4; transform: scale(1); }
+  }
+  .badge-icon {
+    display: inline-block;
+    margin: 5px;
+    vertical-align: middle;
+  }
+</style>
+
 <!-- ABOUT ME -->
 <h2 align="center">👨‍💻 About Me</h2>
 
@@ -78,9 +102,6 @@
 <!-- TECH STACK – PULSING ICONS -->
 <h2 align="center">🛠️ Technology Stack</h2>
 
-<!-- Load external CSS for animation -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kosmovuz/kosmovuz@main/assets/styles/animate.css">
-
 <p align="center">
   <a href="https://kubernetes.io">
     <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/kubernetes.png" width="50" height="50" class="pulse-icon" />
@@ -130,12 +151,13 @@
   <a href="https://www.linux.org">
     <img src="https://raw.githubusercontent.com/kosmovuz/kosmovuz/refs/heads/main/assets/images/linux.png" width="50" height="50" class="pulse-icon" style="animation-delay: 0.95s;" />
   </a>
+  <!-- Yandex Cloud & VK Cloud as badges with same size and pulse -->
   <a href="https://cloud.yandex.com">
-    <img src="https://img.shields.io/badge/Yandex_Cloud-0288D1?style=for-the-badge&logo=yandexcloud&logoColor=white" />
-  </a>
-  <a href="https://vk.com">
-    <img src="https://img.shields.io/badge/VK_Cloud-0077FF?style=for-the-badge&logo=vk&logoColor=white" />
-  </a>
+  <img src="https://img.shields.io/badge/Yandex_Cloud-0288D1?style=for-the-badge&logo=yandexcloud&logoColor=white" class="pulse-icon" style="height:50px;" />
+</a>
+<a href="https://vk.com">
+  <img src="https://img.shields.io/badge/VK_Cloud-0077FF?style=for-the-badge&logo=vk&logoColor=white" class="pulse-icon" style="height:50px;" />
+</a>
 </p>
 
 <!-- Skill levels -->
