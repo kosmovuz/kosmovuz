@@ -19,10 +19,10 @@
   </samp>
 </p>
 
-<!-- STATS CARDS -->
+<!-- STATS CARDS (Fixed) -->
 <p align="center">
   <a href="https://github.com/kosmovuz">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=kosmovuz&show_icons=true&theme=radical&count_private=true&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=kosmovuz&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8"/>
     <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kosmovuz&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=38BDF8&langs_count=6"/>
   </a>
 </p>
@@ -76,41 +76,171 @@
   </table>
 </p>
 
-<!-- TECH STACK – using shields.io badges with logos -->
+<!-- TECH STACK – Animated SVG Icons (Blinking/Pulsing) -->
 <h2 align="center">🛠️ Technology Stack</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
-  <img src="https://img.shields.io/badge/Elastic_Stack-005571?style=for-the-badge&logo=elasticstack&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=black" />
-  <img src="https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
-  <img src="https://img.shields.io/badge/HashiCorp_Vault-000000?style=for-the-badge&logo=vault&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Yandex_Cloud-0288D1?style=for-the-badge&logo=yandexcloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/VK_Cloud-0077FF?style=for-the-badge&logo=vk&logoColor=white" />
+  <!-- Kubernetes -->
+  <a href="https://kubernetes.io">
+    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="64" cy="64" r="60" fill="#326CE5" />
+      <text x="64" y="78" font-size="40" text-anchor="middle" fill="white" font-weight="bold">K</text>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="filter" values="drop-shadow(0 0 5px #326CE5);drop-shadow(0 0 20px #326CE5);drop-shadow(0 0 5px #326CE5)" dur="2s" repeatCount="indefinite" />
+    </svg>
+  </a>
+  
+  <!-- Docker -->
+  <a href="https://www.docker.com">
+    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="64" cy="64" r="60" fill="#2496ED" />
+      <text x="64" y="78" font-size="40" text-anchor="middle" fill="white" font-weight="bold">D</text>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite" />
+      <animate attributeName="filter" values="drop-shadow(0 0 5px #2496ED);drop-shadow(0 0 20px #2496ED);drop-shadow(0 0 5px #2496ED)" dur="2.5s" repeatCount="indefinite" />
+    </svg>
+  </a>
+
+  <!-- Terraform -->
+  <a href="https://www.terraform.io">
+    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="64" cy="64" r="60" fill="#7B42BC" />
+      <text x="64" y="78" font-size="40" text-anchor="middle" fill="white" font-weight="bold">T</text>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="1.8s" repeatCount="indefinite" />
+      <animate attributeName="filter" values="drop-shadow(0 0 5px #7B42BC);drop-shadow(0 0 20px #7B42BC);drop-shadow(0 0 5px #7B42BC)" dur="1.8s" repeatCount="indefinite" />
+    </svg>
+  </a>
+
+  <!-- Ansible -->
+  <a href="https://www.ansible.com">
+    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="64" cy="64" r="60" fill="#EE0000" />
+      <text x="64" y="78" font-size="40" text-anchor="middle" fill="white" font-weight="bold">A</text>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="filter" values="drop-shadow(0 0 5px #EE0000);drop-shadow(0 0 20px #EE0000);drop-shadow(0 0 5px #EE0000)" dur="3s" repeatCount="indefinite" />
+    </svg>
+  </a>
+
+  <!-- GitLab CI -->
+  <a href="https://about.gitlab.com">
+    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="64" cy="64" r="60" fill="#FC6D26" />
+      <text x="64" y="78" font-size="40" text-anchor="middle" fill="white" font-weight="bold">G</text>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.2s" repeatCount="indefinite" />
+      <animate attributeName="filter" values="drop-shadow(0 0 5px #FC6D26);drop-shadow(0 0 20px #FC6D26);drop-shadow(0 0 5px #FC6D26)" dur="2.2s" repeatCount="indefinite" />
+    </svg>
+  </a>
+
+  <!-- Jenkins -->
+  <a href="https://www.jenkins.io">
+    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="64" cy="64" r="60" fill="#D24939" />
+      <text x="64" y="78" font-size="40" text-anchor="middle" fill="white" font-weight="bold">J</text>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.8s" repeatCount="indefinite" />
+      <animate attributeName="filter" values="drop-shadow(0 0 5px #D24939);drop-shadow(0 0 20px #D24939);drop-shadow(0 0 5px #D24939)" dur="2.8s" repeatCount="indefinite" />
+    </svg>
+  </a>
+
+  <!-- Prometheus -->
+  <a href="https://prometheus.io">
+    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="64" cy="64" r="60" fill="#E6522C" />
+      <text x="64" y="78" font-size="40" text-anchor="middle" fill="white" font-weight="bold">P</text>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="1.5s" repeatCount="indefinite" />
+      <animate attributeName="filter" values="drop-shadow(0 0 5px #E6522C);drop-shadow(0 0 20px #E6522C);drop-shadow(0 0 5px #E6522C)" dur="1.5s" repeatCount="indefinite" />
+    </svg>
+  </a>
+
+  <!-- Grafana -->
+  <a href="https://grafana.com">
+    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="64" cy="64" r="60" fill="#F46800" />
+      <text x="64" y="78" font-size="40" text-anchor="middle" fill="white" font-weight="bold">Gf</text>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="3.2s" repeatCount="indefinite" />
+      <animate attributeName="filter" values="drop-shadow(0 0 5px #F46800);drop-shadow(0 0 20px #F46800);drop-shadow(0 0 5px #F46800)" dur="3.2s" repeatCount="indefinite" />
+    </svg>
+  </a>
+
+  <!-- PostgreSQL -->
+  <a href="https://www.postgresql.org">
+    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="64" cy="64" r="60" fill="#4169E1" />
+      <text x="64" y="78" font-size="35" text-anchor="middle" fill="white" font-weight="bold">PG</text>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.1s" repeatCount="indefinite" />
+      <animate attributeName="filter" values="drop-shadow(0 0 5px #4169E1);drop-shadow(0 0 20px #4169E1);drop-shadow(0 0 5px #4169E1)" dur="2.1s" repeatCount="indefinite" />
+    </svg>
+  </a>
+
+  <!-- ClickHouse -->
+  <a href="https://clickhouse.com">
+    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="64" cy="64" r="60" fill="#FFCC01" />
+      <text x="64" y="78" font-size="35" text-anchor="middle" fill="black" font-weight="bold">CH</text>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.7s" repeatCount="indefinite" />
+      <animate attributeName="filter" values="drop-shadow(0 0 5px #FFCC01);drop-shadow(0 0 20px #FFCC01);drop-shadow(0 0 5px #FFCC01)" dur="2.7s" repeatCount="indefinite" />
+    </svg>
+  </a>
+
+  <!-- Nginx -->
+  <a href="https://www.nginx.com">
+    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="64" cy="64" r="60" fill="#009639" />
+      <text x="64" y="78" font-size="40" text-anchor="middle" fill="white" font-weight="bold">N</text>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="1.9s" repeatCount="indefinite" />
+      <animate attributeName="filter" values="drop-shadow(0 0 5px #009639);drop-shadow(0 0 20px #009639);drop-shadow(0 0 5px #009639)" dur="1.9s" repeatCount="indefinite" />
+    </svg>
+  </a>
+
+  <!-- Vault -->
+  <a href="https://www.vaultproject.io">
+    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="64" cy="64" r="60" fill="#000000" />
+      <text x="64" y="78" font-size="35" text-anchor="middle" fill="white" font-weight="bold">Vault</text>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="3.5s" repeatCount="indefinite" />
+      <animate attributeName="filter" values="drop-shadow(0 0 5px #888888);drop-shadow(0 0 20px #888888);drop-shadow(0 0 5px #888888)" dur="3.5s" repeatCount="indefinite" />
+    </svg>
+  </a>
+
+  <!-- Python -->
+  <a href="https://www.python.org">
+    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="64" cy="64" r="60" fill="#3776AB" />
+      <text x="64" y="78" font-size="40" text-anchor="middle" fill="white" font-weight="bold">Py</text>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.3s" repeatCount="indefinite" />
+      <animate attributeName="filter" values="drop-shadow(0 0 5px #3776AB);drop-shadow(0 0 20px #3776AB);drop-shadow(0 0 5px #3776AB)" dur="2.3s" repeatCount="indefinite" />
+    </svg>
+  </a>
+
+  <!-- Bash -->
+  <a href="https://www.gnu.org/software/bash">
+    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="64" cy="64" r="60" fill="#4EAA25" />
+      <text x="64" y="78" font-size="40" text-anchor="middle" fill="white" font-weight="bold">Bash</text>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.9s" repeatCount="indefinite" />
+      <animate attributeName="filter" values="drop-shadow(0 0 5px #4EAA25);drop-shadow(0 0 20px #4EAA25);drop-shadow(0 0 5px #4EAA25)" dur="2.9s" repeatCount="indefinite" />
+    </svg>
+  </a>
+
+  <!-- Linux -->
+  <a href="https://www.linux.org">
+    <svg width="60" height="60" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="64" cy="64" r="60" fill="#FCC624" />
+      <text x="64" y="78" font-size="30" text-anchor="middle" fill="black" font-weight="bold">Linux</text>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.4s" repeatCount="indefinite" />
+      <animate attributeName="filter" values="drop-shadow(0 0 5px #FCC624);drop-shadow(0 0 20px #FCC624);drop-shadow(0 0 5px #FCC624)" dur="2.4s" repeatCount="indefinite" />
+    </svg>
+  </a>
 </p>
 
-<!-- Skill levels (optional) -->
+<!-- Skill Levels (static badges) -->
 <p align="center">
   <img src="https://img.shields.io/badge/Kubernetes-Expert-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-Expert-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Terraform-Expert-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ansible-Advanced-EE0000?style=for-the-badge&logo=ansible&logoColor=white" />
   <img src="https://img.shields.io/badge/GitLab_CI-Expert-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" />
   <img src="https://img.shields.io/badge/Prometheus-Advanced-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
   <img src="https://img.shields.io/badge/Grafana-Advanced-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-Advanced-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ansible-Advanced-EE0000?style=for-the-badge&logo=ansible&logoColor=white" />
 </p>
 
 <!-- PROJECT HIGHLIGHT -->
@@ -158,18 +288,11 @@
   </table>
 </div>
 
-<!-- INTERACTIVE CONTRIBUTION GRAPH -->
+<!-- CONTRIBUTION GRAPH (fixed service) -->
 <h2 align="center">📈 Contribution Graph</h2>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kosmovuz&theme=react-dark&bg_color=0D1117&hide_border=true&area=true&custom_title=My%20Contribution%20Graph" width="100%" />
-</p>
-
-<!-- WAKATIME STATS -->
-<h2 align="center">⏱️ Coding Activity</h2>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=kosmovuz&theme=radical&hide_border=true&bg_color=0D1117&title_color=38BDF8&layout=compact" />
 </p>
 
 <!-- CONTACT -->
